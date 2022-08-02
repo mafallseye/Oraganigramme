@@ -1,0 +1,71 @@
+{
+  "name": "Axe-tag-organigramme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@headlessui/vue": "^1.6.6",
+    "@heroicons/vue": "^1.0.6",
+    "@vueform/multiselect": "^2.5.2",
+    "apexcharts": "^3.35.3",
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "core-js": "^3.8.3",
+    "daisyui": "^2.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "flowbite": "^1.5.1",
+    "jquery": "^3.6.0",
+    "mosha-vue-toastify": "^1.0.23",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "smart-tagz": "^0.3.1",
+    "tailwindcss": "^3.1.6",
+    "vue": "^3.2.13",
+    "vue-awesome-paginate": "^1.0.0",
+    "vue-next-select": "^2.10.4",
+    "vue-router": "^4.1.2",
+    "vue-sorted-table": "^1.3.0",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-organization-chart": "^1.9.3",
+    "vue3-perfect-scrollbar": "^1.6.0",
+    "vue3-table-lite": "^1.2.3",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-cli-plugin-vuetify": "~2.5.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
